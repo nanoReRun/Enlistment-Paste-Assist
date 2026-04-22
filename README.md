@@ -12,5 +12,5 @@ SALDGCC
 3. Open epa.ahk using AutoHotkey
 4. Select the .txt file you created
 5. Ensure the script is running by checking for the "Helper running" text near your mouse cursor
-6. Press ` to paste the first course in the .txt file. The next ` press will paste the second course then loop back around to the first.
+6. Press ` to paste the first course in the .txt file. The next \` press will paste the second course then loop back around to the first.
 7. To reset to the first course, press Ctrl + `
