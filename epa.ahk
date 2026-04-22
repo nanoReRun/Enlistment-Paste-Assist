@@ -40,7 +40,9 @@ SetTimer(() => ToolTip(), -1500)
     A_Clipboard := course_list[index]
     ToolTip "copied to clipboard"
 
+    Send "^f"
     Send "^v"
+    Send "`n"
 
     index := (index >= course_list.Length) ? 1 : index + 1
 }
